@@ -1,0 +1,88 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/gevorg/altorepos/admin-web/app/html/partials/" . "agent-reporting/")
+ ("/Users/gevorg/altorepos/admin-web/app/js/action-maps/" . "controllers/")
+ ("/Users/gevorg/altorepos/admin-web/app/js/" . "action-maps/")
+ ("/Users/gevorg/altorepos/admin-web/app/" . "js/")
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/scala/com/altocloud/analytics/jobs/" . "batch/")
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/scala/com/altocloud/" . "analytics/")
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/scala/com/" . "altocloud/")
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/scala/" . "com/")
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/" . "scala/")
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/" . "main/")
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/" . "src/")
+ ("/Users/gevorg/" . ".emacs.d/")
+ ("/Users/" . "gevorg/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/gevorg/altorepos/admin-web/app/html/partials/agent-reporting/"
+ "/Users/gevorg/altorepos/admin-web/app/js/action-maps/controllers/"
+ "/Users/gevorg/altorepos/spark-jobs/jobs/src/main/scala/com/altocloud/analytics/jobs/batch/"
+ "/Users/gevorg/.emacs.d/"
+ "/Users/gevorg/.emacs.d/lisp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "agent-reporting-overview.tpl.html"
+ "action-map-detail-ctrl.js"
+ "ExportEvents.scala"
+ "init.el"
+ "web-mode.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/gevorg/altorepos/admin-web/app/html/partials/agent-reporting/" (22442 1211 0 0) "agent-reporting-overview.tpl.html" "../" "./")
+
+ ("/Users/gevorg/altorepos/admin-web/app/html/partials/" (22403 20240 0 0) "users/" "team-reporting/" "tags/" "superadmin/" "snippets/" "settings/" "queues/" "pstn/" "personas/" "outcomes/" "onboarding/" "notifications/" "main-layout/" "machine-learning/" "interaction-reporting/" "integrations/" "default/" "dashboard/" "conversation/" "common/" "auto-response/" "analytics/" "agent-reporting/" "action-maps/" "../" "./")
+
+ ("/Users/gevorg/altorepos/admin-web/app/html/" (21991 2534 0 0) "partials/" "index.html" "../" "./")
+
+ ("/Users/gevorg/altorepos/admin-web/app/js/action-maps/controllers/" (22403 20240 0 0) "email-modal-ctrl.js" "action-map-overview-ctrl.js" "action-map-detail-ctrl.js" "../" "./")
+
+ ("/Users/gevorg/altorepos/admin-web/app/js/action-maps/" (21991 2534 0 0) "services/" "controllers/" "../" "./")
+
+ ("/Users/gevorg/altorepos/admin-web/app/js/" (22413 62285 0 0) "users/" "team-reporting/" "tags/" "superadmin/" "snippets/" "settings/" "routes.js" "resolvers.js" "queues/" "pstn/" "personas/" "outcomes/" "onboarding/" "notifications/" "main-layout/" "machine-learning/" "interaction-reporting/" "integrations/" "default/" "dashboard/" "converstation/" "config.js" "common/" "auto-response/" "app.spec.js" "app.js" "analytics/" "agent-reporting/" "action-maps/" "../" "./")
+
+ ("/Users/gevorg/altorepos/admin-web/app/" (22080 48123 0 0) "styles/" "js/" "html/" "assets/" ".DS_Store" "../" "./")
+
+ ("/Users/gevorg/altorepos/admin-web/" (22449 35399 0 0) "vendor/" "test/" "src/" "scripts/" "README.md" "protractor-config.js" "package.json" "node_modules/" "LICENSE" "gulpfile.js" "CHANGELOG.md" "bower_components/" "bower.json" "app/" "_dist/" ".jshintrc" ".gitmodules" ".gitignore" ".git/" ".DS_Store" ".bowerrc" "../" "./")
+
+ ("/Users/gevorg/altorepos/" (22453 32158 0 0) "woocommerce-plugin/" "websocket-hub/" "webhook-manager/" "web-visit-summary/" "web-socket/" "vagrant-files/" "utilities/" "user-manager/" "user-interactions-table/" "universal-web/" "twitter-gateway/" "twilio-services/" "traffic-simulator/" "thunderhead/" "Terminal Saved Output" "telephone-input/" "telegram-gateway/" "spark-jobs/" "snippets-api/" "sms-notification-sender/" "slush-ui-component/" "slush-alto-app/" "slacker/" "search-service/" "screensharing-extensions/" "samurai-ecommerce/" "rule-matcher/" "routing/" "reporting-api/" "report-emailer/" "push-notification-sender/" "pstn-api/" "probability-processor/" "polymer-angular-poc/" "play-ground/" "persona-matcher/" "outcome-score/" "oplog-kafka/" "opentok-services/" "onboarding-web/" "onboarding-api/" "notifications-api/" "nlp-analyzer/" "ninja-ecommerce/" "marketo/" "magento-plugin/" "kafka-river-mongodb/" "js-sdk/" "jabber-services/" "interaction-manager/" "interaction-emailer/" "integrations-api/" "general-styles/" "general-services/" "gadgets/" "event-processor/" "email-gateway/" "emacs-configs/" "ecommerce-customer-profile/" "ecne/" "documentation/" "devops/" "data-ops/" "d3-journey-visualisation/" "customer-services/" "customer-profile-utils/" "customer-profile/" "customer-manager/" "customer-journey/" "customer-api/" "container-manager/" "collect-api/" "cassandra-ops/" "browser-storage/" "base-components/" "auth-web/" "auth-services/" "auth-api/" "alto-web/" "alto-useragent/" "alto-statsd/" "alto-security/" "alto-referrer/" "alto-phonenumbers/" "alto-messaging/" "alto-logging/" "alto-geoip/" "alto-exit/" "alto-events/" "alto-error/" "alto-email/" "alto-elasticsearch/" "alto-data/" "alto-amqp/" "alto-actmu/" "agent-web/" "agent-api/" "admin-web/" "admin-api/" "activity-processor/" "action-processor/" "account-report-emailer/" "ac-customer-profile/" ".DS_Store" "../" "./")
+
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/scala/com/altocloud/analytics/jobs/batch/" (22459 29148 0 0) "PageStats.scala" "OutcomeProbabilities.scala" "ExportEvents.scala" "#ExportEvents.scala#" "../" "./")
+
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/scala/com/altocloud/analytics/jobs/" (22440 65352 0 0) "streaming/" "batch/" "../" "./")
+
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/scala/com/altocloud/analytics/" (22440 65352 0 0) "jobs/" "../" "./")
+
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/scala/com/altocloud/" (22440 65352 0 0) "analytics/" "../" "./")
+
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/scala/com/" (22440 65352 0 0) "altocloud/" "../" "./")
+
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/scala/" (22440 65352 0 0) "com/" "../" "./")
+
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/main/" (22440 65352 0 0) "scala/" "../" "./")
+
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/src/" (22440 65352 0 0) "test/" "main/" "../" "./")
+
+ ("/Users/gevorg/altorepos/spark-jobs/jobs/" (22443 8877 0 0) "target/" "src/" "README.md" "../" "./")
+
+ ("/Users/gevorg/altorepos/spark-jobs/" (22459 32109 0 0) "version.sbt" "target/" "spark-submit.sh" "scripts" "scalaFormatterPreferences.properties" "README.md" "project/" "jobs/" "domain/" "common/" "CHANGELOG.md" "build.sh" "build.sbt" ".gitignore" ".git/" ".ensime_cache/" ".ensime" "../" "./")
+
+ ("/Users/" (21802 11770 0 0) "Shared/" "gevorg/" ".localized" "../" "./")
+
+ ("/Users/gevorg/" (22459 64094 0 0) "VirtualBox VMs/" "vagrant-boxes/" "scala-play-ground/" "repos/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "java-repos/" "gevorg-repos/" "Downloads/" "Documents/" "Desktop/" "Applications/" "altorepos/" ".viminfo" ".vagrant.d/" ".v8flags.3.14.5.9.gevorg.json" ".Trash/" ".subversion/" ".ssh/" ".scalaide/" ".scala_history" ".sbt/" ".rstudio-desktop/" ".Rhistory" ".Rapp.history" ".PyCharm40/" ".npmrc" ".npm/" ".matplotlib/" ".local/" ".ivy2/" ".hgignore_global" ".gitignore_global" ".gitconfig" ".gem/" ".emacs.d/" ".ec2/" ".DS_Store" ".docker/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_profile" ".bash_profil" ".bash_history" ".anyconnect" "../" "./")
+
+ ("/Users/gevorg/.emacs.d/lisp/" (22459 64094 0 0) "web-mode.el" "neotree.el" "../" "./")
+
+ ("/Users/gevorg/.emacs.d/" (22459 27975 0 0) "places" "lisp/" "init.el" "ensime/" "elpa/" "auto-save-list/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
