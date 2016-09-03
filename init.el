@@ -29,7 +29,6 @@
                     ("melpa-stable" . "http://stable.melpa.org/packages/")))
 
 
-
 (package-initialize)
 
 (when (not package-archive-contents)
@@ -58,7 +57,13 @@
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 
+;; ------- globalized mode definitions
 
+(define-globalized-minor-mode global-electric-pair-mode electric-pair-mode
+  (lambda () (electric-pair-mode 1)))
+
+
+(global-electric-pair-mode 1)
 ;; ------- Ensime configuration
 
 (require 'use-package)
@@ -67,7 +72,6 @@
   ;; (addto-list exec-path "/usr/local/bin")
 
 ;; ------- Web Mode
-
 
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
