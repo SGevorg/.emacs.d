@@ -15,8 +15,6 @@
  tab-width 2
  c-basic-offset 2)
 
-;; modes
-
 ;; global keybindings
 (global-unset-key (kbd "C-z"))
 
@@ -28,6 +26,8 @@
                     ("melpa" . "http://melpa.org/packages/")
                     ("melpa-stable" . "http://stable.melpa.org/packages/")))
 
+;; append /usr/local/bin to exec path
+(setq exec-path (append exec-path '("/usr/local/bin")))
 
 (package-initialize)
 
@@ -67,9 +67,7 @@
 ;; ------- Ensime configuration
 
 (require 'use-package)
-(use-package ensime
-  :pin melpa-stable)
-  ;; (addto-list exec-path "/usr/local/bin")
+(use-package ensime :pin melpa-stable)
 
 ;; ------- Web Mode
 
