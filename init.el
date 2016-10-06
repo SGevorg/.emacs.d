@@ -56,6 +56,7 @@
 
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
+(setq neo-window-width 50)
 
 ;; ------- globalized mode definitions
 
