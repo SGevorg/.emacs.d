@@ -24,7 +24,8 @@
  package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                     ("org" . "http://orgmode.org/elpa/")
                     ("melpa" . "http://melpa.org/packages/")
-                    ("melpa-stable" . "http://stable.melpa.org/packages/")))
+                    ("melpa-stable" . "http://stable.melpa.org/packages/")
+                    ("elpy" . "http://jorgenschaefer.github.io/packages/")))
 
 ;; append /usr/local/bin to exec path
 (setq exec-path (append exec-path '("/usr/local/bin")))
@@ -38,7 +39,12 @@
 (defvar myPackages
   '(better-defaults
     material-theme
-    projectile))
+    projectile
+    highlight-indentation
+    elpy
+    flycheck
+    py-autopep8
+    ))
 
 (mapc #'(lambda (package)
     (unless (package-installed-p package)
@@ -63,8 +69,20 @@
 (define-globalized-minor-mode global-electric-pair-mode electric-pair-mode
   (lambda () (electric-pair-mode 1)))
 
-
 (global-electric-pair-mode 1)
+
+;; ------- Elpy Python mode
+
+(elpy-enable)
+;; use flycheck not flymake with elpy
+(when (require 'flycheck nil t)
+  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+  (add-hook 'elpy-mode-hook 'flycheck-mode))
+
+;; enable autopep8 formatting on save
+(require 'py-autopep8)
+(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+
 ;; ------- Ensime configuration
 
 (require 'use-package)
@@ -95,3 +113,17 @@
 (setq web-mode-markup-indent-offset 2)
 (setq web-mode-css-indent-offset 2)
 (setq web-mode-code-indent-offset 2)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (py-autopep8 flycheck elpy use-package pyvenv projectile material-theme highlight-indentation ensime better-defaults))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
