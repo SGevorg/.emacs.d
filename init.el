@@ -64,6 +64,13 @@
 (global-set-key [f8] 'neotree-toggle)
 (setq neo-window-width 50)
 
+(require 'windmove)
+(global-set-key (kbd "C-c <left>")  'windmove-left)
+(global-set-key (kbd "C-c <right>") 'windmove-right)
+(global-set-key (kbd "C-c <up>")    'windmove-up)
+(global-set-key (kbd "C-c <down>")  'windmove-down)
+(setq windmove-wrap-around t)
+
 ;; ------- globalized mode definitions
 
 (define-globalized-minor-mode global-electric-pair-mode electric-pair-mode
