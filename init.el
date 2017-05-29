@@ -71,6 +71,10 @@
 (global-set-key (kbd "C-c <down>")  'windmove-down)
 (setq windmove-wrap-around t)
 
+;; highlight the line numbers 
+(require 'hlinum)
+(hlinum-activate)
+
 ;; ------- globalized mode definitions
 
 (define-globalized-minor-mode global-electric-pair-mode electric-pair-mode
