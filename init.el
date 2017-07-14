@@ -62,7 +62,7 @@
 
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
-(setq neo-window-width 50)
+(setq neo-window-width 30)
 
 (require 'windmove)
 (global-set-key (kbd "C-c <left>")  'windmove-left)
@@ -154,3 +154,9 @@
 
 (custom-set-variables
  '(terraform-indent-level 2))
+
+;; -------- Dockerfile Mode
+
+(require 'dockerfile-mode)
+(add-to-list 'auto-mode-alist '("Dockerfile\\'" . dockerfile-mode))
+
